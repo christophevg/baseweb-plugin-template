@@ -1,0 +1,36 @@
+a_description_for_the_package: an example baseweb plugin
+classifiers:
+- 'Programming Language :: Python'
+- 'Intended Audience :: Developers'
+- 'Development Status :: 4 - Beta'
+- 'License :: OSI Approved :: MIT License'
+- 'Environment :: Plugins'
+- 'Environment :: Web Environment'
+console_scripts: []
+first_year_of_publication: '2023'
+github_account: christophevg
+github_repo_name: baseweb-plugin-template
+keywords_describing_the_package: example baseweb plugin
+license: MIT
+package_module_name: baseweb_plugin_template
+package_name: baseweb-plugin-template
+package_tagline: an example baseweb plugin
+package_title: Baseweb Plugin Template
+requires:
+- baseweb
+scripts: []
+skip:
+- docs
+- docs/_static
+- .readthedocs.yaml
+- .github/README.md
+- .github/workflows
+- tests
+- tox.ini
+- (package_module_name)
+- MANIFEST.in
+- setup.py
+your_author_name: Christophe VG
+your_email_address: contact@christophe.vg
+your_full_name: Christophe VG
+your_name: Christophe VG
