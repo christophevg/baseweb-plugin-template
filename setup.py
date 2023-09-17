@@ -9,7 +9,7 @@ DESCRIPTION      = "an example baseweb plugin"
 LICENSE          = "MIT"
 KEYWORDS         = "example baseweb plugin"
 URL              = "https://github.com/christophevg/" + NAME
-README           = "README.md"
+README           = ".github/README.md"
 CLASSIFIERS      = [
   "Programming Language :: Python",
   "Intended Audience :: Developers",
@@ -17,6 +17,7 @@ CLASSIFIERS      = [
   "License :: OSI Approved :: MIT License",
   "Environment :: Plugins",
   "Environment :: Web Environment",
+  "Programming Language :: Python :: 3",
   
 ]
 INSTALL_REQUIRES = [

@@ -17,20 +17,18 @@ package_module_name: baseweb_plugin_template
 package_name: baseweb-plugin-template
 package_tagline: an example baseweb plugin
 package_title: Baseweb Plugin Template
+readme: .github/README.md
 requires:
 - baseweb
 scripts: []
 skip:
 - docs
-- docs/_static
 - .readthedocs.yaml
-- .github/README.md
-- .github/workflows
+- .github
 - tests
 - tox.ini
 - (package_module_name)
 - MANIFEST.in
-- setup.py
 your_author_name: Christophe VG
 your_email_address: contact@christophe.vg
 your_full_name: Christophe VG
