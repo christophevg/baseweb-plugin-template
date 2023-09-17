@@ -9,7 +9,7 @@ DESCRIPTION      = "an example baseweb plugin"
 LICENSE          = "MIT"
 KEYWORDS         = "example baseweb plugin"
 URL              = "https://github.com/christophevg/" + NAME
-README           = ".github/README.md"
+README           = "README.md"
 CLASSIFIERS      = [
   "Programming Language :: Python",
   "Intended Audience :: Developers",

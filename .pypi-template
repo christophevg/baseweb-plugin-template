@@ -17,7 +17,7 @@ package_module_name: baseweb_plugin_template
 package_name: baseweb-plugin-template
 package_tagline: an example baseweb plugin
 package_title: Baseweb Plugin Template
-readme: .github/README.md
+readme: README.md
 requires:
 - baseweb
 scripts: []
