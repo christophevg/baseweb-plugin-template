@@ -35,6 +35,7 @@ Next, since I want this to be a Python package, installable from [https://pypi.o
 % pypi-template init
 A description for the package: an example baseweb plugin
 Select classifiers: Programming Language :: Python
+Select classifiers: Programming Language :: Python :: 3
 Select classifiers: Intended Audience :: Developers
 Select classifiers: Development Status :: 4 - Beta
 Select classifiers: License :: OSI Approved :: MIT License

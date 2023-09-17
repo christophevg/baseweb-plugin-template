@@ -6,6 +6,7 @@ classifiers:
 - 'License :: OSI Approved :: MIT License'
 - 'Environment :: Plugins'
 - 'Environment :: Web Environment'
+- 'Programming Language :: Python :: 3'
 console_scripts: []
 first_year_of_publication: '2023'
 github_account: christophevg
