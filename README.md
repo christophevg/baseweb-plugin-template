@@ -59,7 +59,7 @@ Select requires: baseweb
 That gives us a complete project setup. For this repo, I'm going to exclude some of the baseweb-managed parts, since I'll be documenting it simply in this README, won't be implementing any tests, and of course I'll be changing the module itself:
 
 ```console
-% pypi-template ignore docs ignore docs/_static ignore .readthedocs.yaml ignore .github/README.md ignore .github/workflows ignore tests ignore tox.ini ignore "(package_module_name)" ignore setup.py apply
+% pypi-template ignore docs ignore .readthedocs.yaml ignore .github ignore tests ignore tox.ini ignore "(package_module_name)" ignore MANIFEST.in apply
 ```
 
 ### The Plugin
@@ -124,7 +124,7 @@ Vue.component("Page", {
 
 So, all in all, this plugin provides some basic logging setup and a `Page` component that adds an image of a baseball to your wrapped content.
 
-> don't forget to include the `components` and `static` folders in your `MANIFEST.in`, else these not-py files won't be included:
+> don't forget to include the `components` and `static` folders in your `MANIFEST.in`, else these not-py files won't be included - this is also the reason why we asked pypi-template to ignore the MANIFEST.in file, since we need to apply our own changes to it:
 
 ```
 include .github/README.md
@@ -207,4 +207,4 @@ You can find these files also in the `example` folder. Running it consists of se
 [baseweb_plugin_template] [INFO] ✅ everything loaded...
 ```
 
-![Hello Baseweb Plugin World](media/hello-baseweb-plugin-world.png)
+![Hello Baseweb Plugin World](https://raw.githubusercontent.com/christophevg/baseweb-plugin-template/master/media/hello-baseweb-plugin-world.png)
